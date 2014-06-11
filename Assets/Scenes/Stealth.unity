@@ -36402,9 +36402,6 @@ Transform:
   - {fileID: 1947588010}
   - {fileID: 1230872334}
   - {fileID: 362698263}
-  - {fileID: 2060721937}
-  - {fileID: 1249556326}
-  - {fileID: 1575972313}
   - {fileID: 1678356372}
   - {fileID: 1294465726}
   - {fileID: 1374331527}
@@ -36456,6 +36453,9 @@ Transform:
   - {fileID: 588242288}
   - {fileID: 1660464973}
   - {fileID: 203890420}
+  - {fileID: 2060721937}
+  - {fileID: 1249556326}
+  - {fileID: 1575972313}
   m_Father: {fileID: 0}
 --- !u!1 &1093856137
 GameObject:
@@ -47634,6 +47634,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1643031102}
   - 108: {fileID: 1643031101}
+  - 114: {fileID: 1643031103}
   m_Layer: 0
   m_Name: light_alarm_directional
   m_TagString: AlarmLight
@@ -47687,6 +47688,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1643031103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643031100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3255233274089654d928836d646ceae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 2
+  highIntensity: 2
+  lowIntensity: .5
+  changeMargin: .200000003
+  alarmOn: 0
 --- !u!1 &1657156510
 GameObject:
   m_ObjectHideFlags: 0
