@@ -1,10 +1,12 @@
 # =============== #
 # Unity generated #
 # =============== #
-Assets/
+Assets/*
 Builds/
 Library/
 Temp/
+
+!Assets/Scripts/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
