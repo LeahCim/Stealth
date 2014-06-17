@@ -6319,6 +6319,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 338639513}
   - 82: {fileID: 338639514}
+  - 114: {fileID: 338639515}
   m_Layer: 0
   m_Name: gameController
   m_TagString: GameController
@@ -6396,6 +6397,23 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &338639515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 338639512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897a6133f2014c949ab9361bd31d8e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetPosition: {x: 1000, y: 1000, z: 1000}
+  position: {x: 1000, y: 1000, z: 1000}
+  lightHighIntensity: .25
+  lightLowIntensity: 0
+  fadeSpeed: 7
+  musicFadeSpeed: 1
 --- !u!1 &342807597
 GameObject:
   m_ObjectHideFlags: 0
