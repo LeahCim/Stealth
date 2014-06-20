@@ -7903,8 +7903,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 413272841}
-  - 33: {fileID: 413272843}
-  - 23: {fileID: 413272842}
+  - 64: {fileID: 413272842}
   m_Layer: 0
   m_Name: prop_cctvCam_collision
   m_TagString: Untagged
@@ -7923,35 +7922,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 879921711}
---- !u!23 &413272842
-Renderer:
+--- !u!64 &413272842
+MeshCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: bec7d2e42f9fe3547a5298f21c76bb15,
-    type: 3}
-  m_PrefabInternal: {fileID: 432246425}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 413272840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
---- !u!33 &413272843
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: bec7d2e42f9fe3547a5298f21c76bb15,
-    type: 3}
-  m_PrefabInternal: {fileID: 432246425}
-  m_GameObject: {fileID: 413272840}
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: bec7d2e42f9fe3547a5298f21c76bb15, type: 3}
 --- !u!1 &421115708
 GameObject:
@@ -8285,7 +8267,9 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3300000, guid: bec7d2e42f9fe3547a5298f21c76bb15, type: 3}
+    - {fileID: 2300000, guid: bec7d2e42f9fe3547a5298f21c76bb15, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: bec7d2e42f9fe3547a5298f21c76bb15, type: 3}
   m_RootGameObject: {fileID: 413272840}
   m_IsPrefabParent: 0
