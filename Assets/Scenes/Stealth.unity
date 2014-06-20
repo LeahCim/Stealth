@@ -27364,7 +27364,7 @@ Renderer:
   - {fileID: 2100000, guid: 4ec72861dfce47048ba385b46f8e6b98, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 0
@@ -32387,7 +32387,7 @@ Renderer:
   - {fileID: 2100000, guid: 110a1e4ac5bbfd34f9b8f98c4ddc1cd6, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 0
@@ -44356,7 +44356,7 @@ Renderer:
   - {fileID: 2100000, guid: 4ec72861dfce47048ba385b46f8e6b98, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 0
@@ -57372,6 +57372,18 @@ Prefab:
     - target: {fileID: 400000, guid: 1cc01168159cbaa4bb0b2963c8e36da0, type: 3}
       propertyPath: m_LocalRotation.w
       value: -4.37113883e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 1cc01168159cbaa4bb0b2963c8e36da0, type: 3}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 1cc01168159cbaa4bb0b2963c8e36da0, type: 3}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc01168159cbaa4bb0b2963c8e36da0, type: 3}
+      propertyPath: m_UseLightProbes
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cc01168159cbaa4bb0b2963c8e36da0, type: 3}
