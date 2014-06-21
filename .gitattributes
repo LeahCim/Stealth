@@ -8,6 +8,7 @@
 *.unity text eol=lf
 *.mat text eol=lf
 *.cubemap text eol=lf
+*.anim text eol=lf
 
 *.cs text eol=lf
 
