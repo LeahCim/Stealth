@@ -7905,6 +7905,7 @@ GameObject:
   - 4: {fileID: 413272841}
   - 64: {fileID: 413272842}
   - 108: {fileID: 413272843}
+  - 114: {fileID: 413272844}
   m_Layer: 0
   m_Name: prop_cctvCam_collision
   m_TagString: Untagged
@@ -7971,6 +7972,17 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &413272844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 413272840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf16b51536f3f34f839adfa112be486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &421115708
 GameObject:
   m_ObjectHideFlags: 0
