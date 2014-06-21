@@ -24501,6 +24501,7 @@ GameObject:
   - 4: {fileID: 456830611}
   - 33: {fileID: 456830613}
   - 23: {fileID: 456830612}
+  - 111: {fileID: 456830614}
   m_Layer: 0
   m_Name: prop_cctvCam_joint
   m_TagString: Untagged
@@ -24550,6 +24551,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1828021577}
   m_GameObject: {fileID: 456830610}
   m_Mesh: {fileID: 4300008, guid: 1cc01168159cbaa4bb0b2963c8e36da0, type: 3}
+--- !u!111 &456830614
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456830610}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 8426d7e5d11c21e4588e81fcb50a6638, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 8426d7e5d11c21e4588e81fcb50a6638, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &457622511
 GameObject:
   m_ObjectHideFlags: 0
